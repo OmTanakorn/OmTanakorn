@@ -10,3 +10,5 @@ Backend Dev
 
 <a href="https://www.github.com/OmTanakorn" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/OmTanakorn?logo=github&style=for-the-badge&color=64748b&labelColor=ffffff" /></a>
+
+[![Data Card for Spotify](card_image_link)](card_page_link)
