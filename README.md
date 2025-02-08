@@ -4,6 +4,8 @@ Hi 👋 My name is Tanakorn Aphiwanphakdee
 Backend Dev
 -----------
 
+[![wakatime](https://wakatime.com/badge/user/7662204b-b89a-448e-a896-0c3591963db0.svg)](https://wakatime.com/@7662204b-b89a-448e-a896-0c3591963db0)
+
 * 🌍  I'm based in Thai
 * ✉️  You can contact me at [tanakorn.ahpiwan@gmail.com](mailto:tanakorn.ahpiwan@gmail.com)
 * 🧠  I'm learning Django rest
