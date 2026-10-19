@@ -6,7 +6,7 @@
 
 <br/>
 
-**backend developer @ swiftdynamic (sitearound)** &nbsp;·&nbsp; 🏆 1st place — ai hackathon thailand
+**backend developer @ swiftdynamic (sitearound)**
 <br/>
 <sub>building enterprise backends that talk to erp systems — heading toward senior engineer → solutions architect</sub>
 
@@ -93,6 +93,7 @@ Construction payment platform for an enterprise real-estate client, wired into S
 - jira status automation through github actions (a no-admin workaround)
 - token thrift: prompt caching, model routing, slim CLAUDE.md
 - llm wiki knowledge bases in obsidian; local models via ollama
+- once won the ai thailand hackathon 2024 ep2 (ai for thai api on shelf) with team 105 lab
 
 <br/>
 
