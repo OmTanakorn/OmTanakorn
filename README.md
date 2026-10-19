@@ -71,12 +71,6 @@ Construction payment platform for an enterprise real-estate client, wired into S
 <tr>
 <td width="50%" valign="top">
 
-**[tong-calc-ro](https://github.com/OmTanakorn/tong-calc-ro)**
-<br/><sub>ragnarok online damage calculator — forked, being extended.</sub>
-
-</td>
-<td width="50%" valign="top">
-
 **[project-zomboid-server](https://github.com/OmTanakorn/project-zomboid-server)**
 <br/><sub>a dockerized project zomboid server, for long nights with friends.</sub>
 
