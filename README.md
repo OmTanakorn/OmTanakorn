@@ -1,75 +1,117 @@
-# Hi, I'm Tanakorn 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0d1117,100:2d2a40&text=tanakorn&fontColor=d4d4e0&fontSize=60&fontAlignY=38&desc=bangkok%20%C2%B7%20backend%20%C2%B7%20pixels%20and%20coffee&descAlignY=60&descSize=15&animation=fadeIn" width="100%" alt="tanakorn" />
 
-**Backend Developer @ SwiftDynamic (Sitearound)** · Bangkok, Thailand 🇹🇭
-🏆 1st Place — AI Hackathon Thailand
+<div align="center">
 
-I build enterprise backends that talk to ERP systems — workflow engines, SAP integrations, document & signing pipelines. Heading toward **Senior Software Engineer → Solutions Architect**.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3200&pause=1400&color=8B8BA7&center=true&vCenter=true&width=520&lines=backend+engineer+%C2%B7+erp+%26+sap+integrations;workflow+engines+%C2%B7+document+pipelines;keep+it+simple.+make+it+scale." alt="typing" />
 
-> “Keep it simple. Make it scale.”
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanakorn-aphiwanphakdee-93b470261)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:tanakorn.aphiwan@gmail.com)
+**backend developer @ swiftdynamic (sitearound)** &nbsp;·&nbsp; 🏆 1st place — ai hackathon thailand
+<br/>
+<sub>building enterprise backends that talk to erp systems — heading toward senior engineer → solutions architect</sub>
 
----
+<br/><br/>
 
-## 🛠 Tech Stack
+<a href="https://www.linkedin.com/in/tanakorn-aphiwanphakdee-93b470261"><img src="https://img.shields.io/badge/linkedin-1a1b26?style=for-the-badge&logo=linkedin&logoColor=8b8ba7" alt="LinkedIn" /></a>&nbsp;<a href="mailto:tanakorn.aphiwan@gmail.com"><img src="https://img.shields.io/badge/email-1a1b26?style=for-the-badge&logo=gmail&logoColor=8b8ba7" alt="Email" /></a>
 
-| Area | Tools |
-|---|---|
-| **Backend** | Python · Django 5.x · Django REST Framework · Celery · httpx (async) |
-| **Data** | PostgreSQL · Redis |
-| **Integration** | SAP ERP (OData / BAPI / ABAP debugging) · Azure Entra SSO |
-| **Documents** | WeasyPrint (PDF) · Apryse WebViewer (XFDF signing) · Outlook-safe HTML email |
-| **Frontend** | React · TypeScript · Ant Design v5 |
-| **Infra** | Docker · Traefik · S3 (MinIO) |
-| **AI / Agents** | Claude Code · MCP (Playwright, Context7, GitHub, Jira, Excalidraw) · Ollama · OpenRouter |
-| **Env** | Arch / CachyOS · Hyprland · Zed · zsh + Starship · yazi |
+</div>
 
----
+<br/>
 
-## 🏗 What I'm Building — PayStation
+### ⟡ &nbsp;stack
 
-Construction payment management platform for a large enterprise real-estate client, integrated with SAP ERP. I own the backend end-to-end.
+<img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,docker,react,ts,githubactions,linux,arch,obsidian&theme=dark&perline=12" alt="stack" />
 
-- **Generic `BaseWorkflowEngine`** — one engine for multiple document types: step state machines, approval sub-step injection, cycle tracking, SAP PR creation triggers (evaluated List+inject vs. DAG designs)
-- **Service-layer architecture** — thin serializers → DTOs → thick services; soft delete via `django-safedelete`; DRF permission registry + `BaseScopedViewSet`; multi-tenant permissions
-- **SAP OData client** — CSRF token caching, retry + circuit breaker, async httpx, Celery integration
+<sub>
+<b>integration</b> &nbsp;sap erp (odata · bapi · abap) · azure entra sso &nbsp;&nbsp;
+<b>documents</b> &nbsp;weasyprint · apryse xfdf signing · outlook-safe html &nbsp;&nbsp;
+<b>agents</b> &nbsp;claude code · mcp · ollama · openrouter &nbsp;&nbsp;
+<b>env</b> &nbsp;cachyos · hyprland · zed · zsh + starship · yazi
+</sub>
+
+<br/><br/>
+
+### ⟡ &nbsp;now building — paystation
+
+Construction payment platform for an enterprise real-estate client, wired into SAP ERP. I own the backend end-to-end.
+
+<details>
+<summary><sub>&nbsp;open the notebook ↓</sub></summary>
+<br/>
+
+- **generic `BaseWorkflowEngine`** — one engine for multiple document types: step state machines, approval sub-step injection, cycle tracking, SAP PR creation triggers (weighed List+inject vs. DAG)
+- **service-layer architecture** — thin serializers → DTOs → thick services; soft delete via `django-safedelete`; DRF permission registry + `BaseScopedViewSet`; multi-tenant permissions
+- **SAP OData client** — CSRF token caching, retry + circuit breaker, async httpx, Celery
 - **SAP debugging** — traced ERP business logic through ABAP source to reproduce budget calculations and pin down data bugs in custom OData services
-- **Document pipeline** — WeasyPrint PDF generation, Apryse/XFDF digital signatures with coordinate-system handling, Outlook/OWA-compatible HTML email templates
-- **Variation Order workflow** — data model, service layer, SAP PO creation
-- **QA** — led UAT for Phase 2: 207 test cases across 16 modules
+- **document pipeline** — WeasyPrint PDFs, Apryse/XFDF digital signatures with coordinate-system handling, Outlook/OWA-safe HTML email
+- **variation order workflow** — data model, service layer, SAP PO creation
+- **QA** — led Phase 2 UAT: 207 test cases across 16 modules
 
----
+</details>
 
-## 📂 Open Source
+<br/>
 
-| Project | What it is |
-| :--- | :--- |
-| 📄 [**pdf-template-custom**](https://github.com/OmTanakorn/pdf-template-custom) | PDF template engine — Template JSON + data JSON → PDF, with a drag-and-drop studio. Thai-first (Sarabun, พ.ศ. dates, bahttext). |
-| 📈 [**backend-engineering**](https://github.com/OmTanakorn/backend-engineering) | 12-month Senior/Lead roadmap, learning in public — architecture, data layer, distributed systems, security, cloud. |
-| ⚔️ [**tong-calc-ro**](https://github.com/OmTanakorn/tong-calc-ro) | Ragnarok Online damage calculator (fork, extending). |
-| 🧟 [**project-zomboid-server**](https://github.com/OmTanakorn/project-zomboid-server) | Dockerized Project Zomboid game server. |
+### ⟡ &nbsp;open source
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 🤖 AI-Assisted Engineering
+**[pdf-template-custom](https://github.com/OmTanakorn/pdf-template-custom)**
+<br/><sub>template json + data json → pdf, with a drag-and-drop studio. thai-first — sarabun, พ.ศ. dates, bahttext.</sub>
 
-- Parallel agent workflows with **Claude Code + git worktrees**
-- Reusable skills: DRF review, docx templates, UAT playbook, tech translator, Jira ↔ Obsidian sync
-- Jira status automation via **GitHub Actions** (no-admin workaround)
-- Token optimization: prompt caching, model routing, CLAUDE.md slimming
-- LLM wiki knowledge bases with Obsidian; local models via Ollama
+</td>
+<td width="50%" valign="top">
 
----
+**[backend-engineering](https://github.com/OmTanakorn/backend-engineering)**
+<br/><sub>a 12-month senior / lead roadmap, learned in public — architecture, data, distributed, security, cloud.</sub>
 
-## 🎲 Side Projects
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- **3D Print Shop** — tabletop/fantasy miniatures (40K / D&D style) + custom customer prints; building a standalone storefront with a custom-print order flow
-- **Ragnarok Online tools** — item search via Divine Pride API, damage calculator (React + FastAPI)
-- **Dark-fantasy pixel art** — Aseprite / Krita; working on HD-2D style short story clips
+**[tong-calc-ro](https://github.com/OmTanakorn/tong-calc-ro)**
+<br/><sub>ragnarok online damage calculator — forked, being extended.</sub>
 
----
+</td>
+<td width="50%" valign="top">
 
-## ☕ Off-keyboard
+**[project-zomboid-server](https://github.com/OmTanakorn/project-zomboid-server)**
+<br/><sub>a dockerized project zomboid server, for long nights with friends.</sub>
 
-Pour-over coffee (V60, Ethiopia naturals) · Colony/survival games — Dwarf Fortress, Kenshi, Songs of Syx, Battle Brothers, Path of Exile 2 · Radiohead on repeat · INTP
+</td>
+</tr>
+</table>
+
+<br/>
+
+### ⟡ &nbsp;how i work
+
+- parallel agent workflows — **claude code + git worktrees**
+- hand-made skills: drf review, docx templates, uat playbook, tech translator, jira ↔ obsidian sync
+- jira status automation through github actions (a no-admin workaround)
+- token thrift: prompt caching, model routing, slim CLAUDE.md
+- llm wiki knowledge bases in obsidian; local models via ollama
+
+<br/>
+
+### ⟡ &nbsp;after hours
+
+- 🎲 **3d print shop** — tabletop & fantasy miniatures (40k / d&d), custom prints; building its storefront
+- ⚔️ **ragnarok online tools** — item search on the divine pride api, damage calculator (react + fastapi)
+- 🕯️ **dark-fantasy pixel art** — aseprite / krita; drafting hd-2d short story clips
+
+<br/>
+
+<div align="center">
+
+<sub>☕ v60 · ethiopia naturals &nbsp;&nbsp;·&nbsp;&nbsp; 🏰 dwarf fortress · kenshi · songs of syx · battle brothers · poe2 &nbsp;&nbsp;·&nbsp;&nbsp; 🎧 radiohead on repeat &nbsp;&nbsp;·&nbsp;&nbsp; intp</sub>
+
+<br/><br/>
+
+<i>“for a minute there, i lost myself.”</i>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:2d2a40,100:0d1117&section=footer" width="100%" alt="" />
